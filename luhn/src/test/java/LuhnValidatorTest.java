@@ -1,4 +1,3 @@
-import org.junit.Ignore;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -103,7 +102,6 @@ public class LuhnValidatorTest {
      * passing implementations. For more detail, check out issue #972 here:
      * (https://github.com/exercism/java/issues/972).
     */
-    @Ignore("Remove to run test")
     @Test
     public void testStringContainingSymbolsInvalidJavaTrackSpecific() {
         assertFalse(luhnValidator.isValid("85&"));
